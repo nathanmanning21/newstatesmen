@@ -1,5 +1,5 @@
 $font: 'Open Sans', sans-serif;
-$fontSize: 20px;
+$fontSize: 18px;
 $btnColor: #ad0026;
 
 
@@ -11,7 +11,7 @@ $btnColor: #ad0026;
 
 .subscribe p {
     font-family: $font;
-    font-size: $fontSize;
+    font-size: 20px;
     margin: auto;
     margin-bottom: 30px;
     text-align: center;
@@ -59,7 +59,7 @@ $btnColor: #ad0026;
     padding-right: 153px;
     display: flex;
     margin: auto;
-    margin-top: 34px;
+    margin-top: 115px;
     
     text-align: center;
     background-color: $btnColor;
@@ -89,13 +89,34 @@ $btnColor: #ad0026;
    .subscribe p {
        width: 400px;
    }
+
    .subscribe-text{
        margin-left: 30px;
+   }
+
+   .btn-primary {
+       margin-top: 15px;
+       margin-bottom: 80px;
+   }
+
+   .subscribe-text img{ 
+       height: 100px;
    }
 }
 
 @media (max-width: 414px){
     .subscribe-text{
         margin-left: 15px;
+    }
+
+    .subscribe p {
+        margin-left: 21px;
+        width: 400px;
+    }
+
+    .subscribe h1 {
+        margin-left: 23px;
+        font-size: 40px;
+        width: 400px;
     }
 }

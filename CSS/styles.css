@@ -27,7 +27,7 @@
 
 .subscribe-text p {
   font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   margin: auto;
   text-align: center;
   width: 370px;
@@ -35,7 +35,7 @@
 
 .subscribe-text li {
   font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   margin: auto;
   margin-top: 10px;
   text-align: center;
@@ -59,7 +59,7 @@
   display: -ms-flexbox;
   display: flex;
   margin: auto;
-  margin-top: 34px;
+  margin-top: 115px;
   text-align: center;
   background-color: #ad0026;
 }
@@ -89,11 +89,27 @@
   .subscribe-text {
     margin-left: 30px;
   }
+  .btn-primary {
+    margin-top: 15px;
+    margin-bottom: 80px;
+  }
+  .subscribe-text img {
+    height: 100px;
+  }
 }
 
 @media (max-width: 414px) {
   .subscribe-text {
     margin-left: 15px;
+  }
+  .subscribe p {
+    margin-left: 21px;
+    width: 400px;
+  }
+  .subscribe h1 {
+    margin-left: 23px;
+    font-size: 40px;
+    width: 400px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
